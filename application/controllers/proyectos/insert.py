@@ -45,6 +45,6 @@ class Insert:
 
         # call model insert_proyectos and try to insert new data
         config.model.insert_proyectos(
-            form['proyecto'],form['estatus'],form['empleado_elabora'],form['titular'],
+            form['proyecto'],form['estatus'],form['empleado_elaboro'],form['titular'],
         )
         raise config.web.seeother('/proyectos') # render proyectos index.html
